@@ -63,7 +63,7 @@ case "$i" in
 ;;
 esac
 
-echo "Installing mobox"
+echo "Installing mobox ruko jara sabar karo"
 
 function wget-git-q {
     wget -q --retry-connrefused --tries=0 --header "PRIVATE-TOKEN: $PRIVATE_TOKEN" "https://gitlab.com/api/v4/projects/$PROJECT_ID/repository/files/$1/raw?ref=main" -O $2
