@@ -11,7 +11,7 @@ while true; do
     if [ -d ~/storage/shared ]; then
         break
     else
-        echo "Storage permission denied"
+        echo " Bhai Storage permission denied ku kiya"
     fi
     sleep 3
 done
@@ -47,7 +47,7 @@ INSTALL_WOW64=0
 
 echo "Select an option"
 echo "1) Install previous mobox with box86"
-echo "2) Install new mobox wow64 version"
+echo "2) Install new mobox wow64 version(ye naya version ha) "
 echo ""
 echo -n "Selected number: "
 read i
