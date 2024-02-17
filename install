@@ -2,7 +2,7 @@
 
 rm ~/x
 
-echo "Installing termux-am"
+echo "Installing termux-am ruko jara sabar karo"
 pkg install termux-am -y &>/dev/null
 
 termux-setup-storage & sleep 4 &>/dev/null
